@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SYFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="首页"
+        android:background="@color/red"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:id="@+id/sy"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="扫一扫"
+        android:layout_below="@+id/sy"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/sys_but"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/sy"
+        android:layout_toRightOf="@+id/sys_but"
+        android:id="@+id/sys_edit"
+        android:hint="请输入要生成的二维码内容"
+        android:layout_marginRight="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击生成"
+        android:layout_below="@+id/sys_edit"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sc_but"
+
+        android:background="@drawable/yuan"
+        android:layout_marginTop="50dp"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/sc_img"
+        android:layout_below="@+id/sc_but"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

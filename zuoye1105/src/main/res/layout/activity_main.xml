@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="增加"
+        android:id="@+id/btn_rb1"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/yuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="删除"
+        android:id="@+id/btn_rb2"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/yua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="修改"
+        android:id="@+id/btn_rb3"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/yu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="查询"
+        android:id="@+id/btn_rb4"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/zi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/text_view"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+</LinearLayout>
